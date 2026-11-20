@@ -1,0 +1,27 @@
+{
+  "name": "aurelia-jewels-monorepo",
+  "version": "1.0.0",
+  "description": "AURÉLIA JEWELS - Royal Indian Fine Jewellery E-Commerce Full-Stack Application",
+  "scripts": {
+    "start": "npm start --prefix server",
+    "dev": "npm run dev --prefix client",
+    "server": "npm start --prefix server",
+    "server:dev": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "client:build": "npm run build --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test:api": "node server/tests/apiTest.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "jewellery",
+    "react",
+    "vite",
+    "express",
+    "mongodb",
+    "tailwind",
+    "razorpay"
+  ],
+  "author": "SVARIO Web Development Team",
+  "license": "ISC"
+}

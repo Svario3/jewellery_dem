@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+*/node_modules/
+jewellery/client/node_modules/
+jewellery/server/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build outputs
+dist/
+build/
+jewellery/client/dist/
+
+# Logs & temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.system_generated/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor folders
+.vscode/
+.idea/

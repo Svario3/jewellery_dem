@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom luxury scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F0E8;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8BAA3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A4822B;
+}
+
+/* Gold foil text shimmer effect */
+.text-shimmer {
+  background: linear-gradient(90deg, #A4822B 0%, #F0DD8F 50%, #BE9733 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Luxury card smooth transition */
+.luxury-card {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.luxury-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px -12px rgba(35, 20, 12, 0.15);
+}
+
+/* Subtle image scale */
+.luxury-img-zoom {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.group:hover .luxury-img-zoom {
+  transform: scale(1.06);
+}

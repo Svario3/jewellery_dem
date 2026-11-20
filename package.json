@@ -1,0 +1,15 @@
+{
+  "name": "svario-jewellery-project",
+  "version": "1.0.0",
+  "description": "AURÉLIA JEWELS - Luxury Jewellery E-Commerce Application (SVARIO Portfolio)",
+  "scripts": {
+    "start": "npm start --prefix jewellery/server",
+    "dev": "npm run dev --prefix jewellery/client",
+    "server": "npm start --prefix jewellery/server",
+    "server:dev": "npm run dev --prefix jewellery/server",
+    "client": "npm run dev --prefix jewellery/client",
+    "build": "npm run build --prefix jewellery/client",
+    "seed": "npm run seed --prefix jewellery/server",
+    "test:api": "node jewellery/server/tests/apiTest.js"
+  }
+}
